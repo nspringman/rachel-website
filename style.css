@@ -1,3 +1,44 @@
+.heading {
+    height: 70vh;
+    background: url("img/jackson.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.heading-content {
+    position: absolute;
+    padding-bottom: 30px;
+    padding-top: 15px;
+    bottom: 0;
+    background-color: rgb(46 195 236 / 0.82);
+    width: 80%;
+}
+
+.heading-content button {
+    border-radius: 0;
+}
+
+.heading-lede {
+    color: white;
+}
+
+.heading-lede h1 {
+    text-align: right;
+}
+
+.heading-lede p {
+    text-align: right;
+    margin-bottom: 0px;
+}
+
+.parallelogram {
+    width: 150px;
+    height: 100px;
+    transform: skew(20deg);
+    background: red;
+  }
+
 nav {
     background-color: #2ec3ec;
 }

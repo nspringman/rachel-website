@@ -1,18 +1,32 @@
-.heading {
+* {
+    color: #fff;
+}
+
+.dark-blue {
+    background-color: #2c4291;
+}
+
+.heading-background-img {
     height: 70vh;
     background: url("img/jackson.jpg") no-repeat;
     background-position: center;
     background-size: cover;
-    position: relative;
+}
+
+.row {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.heading {
+    margin-top: -30px;
+    z-index: 10;
 }
 
 .heading-content {
-    position: absolute;
     padding-bottom: 30px;
     padding-top: 15px;
-    bottom: 0;
-    background-color: rgb(46 195 236 / 0.82);
-    width: 80%;
+    background-color: rgb(46 195 236);
 }
 
 .heading-content button {
@@ -24,21 +38,67 @@
 }
 
 .heading-lede h1 {
-    text-align: right;
+    text-align: center;
 }
 
 .heading-lede p {
-    text-align: right;
     margin-bottom: 0px;
 }
 
-.parallelogram {
-    width: 150px;
-    height: 100px;
-    transform: skew(20deg);
-    background: red;
-  }
+.contact-info {
+    text-align: right;
+    color: white;
+}
 
-nav {
-    background-color: #2ec3ec;
+.contact-info p {
+    margin-bottom: 2px;
+}
+
+nav {  
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+.experiences-container {
+    padding-bottom: 30px;
+    padding-top: 15px;
+}
+
+.experiences-container h1 {
+    text-align: center;
+}
+
+.experiences-row {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.content-col {
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.content-wrapper {
+    padding: 20px;
+}
+
+.image-right-col {
+    display: flex;
+    justify-content: center;
+}
+
+.image-wrapper {
+    width: calc(100% + 200px);
+    min-height: calc(100% + 100px);
+    margin: -50px;
+    background: url("img/jackson.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.image-right {
+    /* width: 100%;
+    height: 100%; */
 }
